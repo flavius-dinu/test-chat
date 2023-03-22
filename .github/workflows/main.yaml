@@ -11,5 +11,5 @@ jobs:
       - name: Review code
         uses: flavius-dinu/chatgpt-pr-comment@0.1.0
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GIT_TOKEN }}
           openai-token: ${{ secrets.OPENAI_TOKEN }}
