@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Review code
-        uses: flavius-dinu/chatgpt-pr-comment@0.1.0
+        uses: flavius-dinu/chatgpt-pr-comment@1.0.1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GIT_TOKEN }}
           openai-token: ${{ secrets.OPENAI_TOKEN }}
