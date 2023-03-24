@@ -13,4 +13,4 @@ jobs:
         with:
           github-token: ${{ secrets.GIT_TOKEN }}
           openai-token: ${{ secrets.OPENAI_TOKEN }}
-          model: "gpt-4"
+          chatgptmodel: "gpt-4"
